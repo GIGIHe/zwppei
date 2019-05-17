@@ -1,0 +1,492 @@
+<!doctype html>
+
+<html>
+
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		 <title>江西省公务员考试职位匹配查询_江西公务员考试_江西公务员考试培训班_江西中公教育</title>
+
+	<meta name="Keywords" content="江西公务员考试_江西公务员考试培训班"/>
+
+		<meta name="Description" content="本系统收录了2017年、2018年江西省公务员考试职位表及各职位进面分数线，旨在省考前夕为您提供备考参考，了解您的专业在近两年所匹配到的职位以及该职位的进面分数线，让您做到心中有数，及早备考！"/>
+
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+
+		<meta name="applicable-device" content="mobile">
+
+		<link href="css/index.css" rel="stylesheet" type="text/css" />
+
+		<script src="./js/jquery.min.js?gs"></script>
+
+		<script src="./js/bootstrap-typeahead.js?gs" type="text/javascript"></script>
+
+		<script src="./js/prettify.js?gs" type="text/javascript"></script>
+
+		<script src="./js/data.js" type="text/javascript"></script>
+
+		<script src="./js/index.js" type="text/javascript"></script>
+
+		<script>
+
+			window.onresize = function() {
+
+				change()
+
+			}
+
+			function change() {
+
+
+
+				var deviceWidth = document.documentElement.clientWidth;
+
+
+
+				var deviceHeight = document.documentElement.clientHeight;
+
+
+
+				if(deviceWidth > 720) deviceWidth = 720;
+
+
+
+				document.documentElement.style.fontSize = deviceWidth / 7.2 + 'px';
+
+
+
+				$('.zg_wrapper').css('min-height', deviceHeight)
+
+
+
+			}
+
+
+
+			change();
+
+
+
+			function browserRedirect() {
+
+				var sUserAgent = navigator.userAgent.toLowerCase();
+
+				var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+
+				var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+
+				var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+
+				var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+
+				var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+
+				var bIsAndroid = sUserAgent.match(/android/i) == "android";
+
+				var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+
+				var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+
+				if(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+
+				}else{
+
+
+
+					// window.location.href = 'http://jx.offcn.com/zg/zwppcx/ ';
+
+
+
+				}
+
+
+
+			}
+
+
+
+			browserRedirect();
+
+
+
+		</script>
+
+		<!-- <script type="text/javascript" src="http://www.offcn.com/statics/js/sdc_offcn_wap.js"></script> -->
+
+	</head>
+
+	<body>
+
+		<div class="zg_cover"></div>
+
+		<section class="zg_wrapper">
+
+			<div class="top btn_wrap">
+
+				<a href="javascript:void(0)" class="register_btn">注册</a>
+
+				<a href="javascript:void(0)" class="login_btn">登录</a>
+
+			</div>
+
+			<div class="lginsecc">
+
+					欢迎您，<span></span>！
+
+					<a href="javascript:;">注销登陆</a>
+
+			</div>
+
+			<!-- home -->
+
+			<div class="home_con clearfix">
+
+				<h1 class="home_title"><img src="images/tit.png" class="title_img" alt="北京公务员分数线匹配查询"></h1> 
+
+				<div class="user-box clearfloat">
+
+					<div class="user-item user-item-on-S user-item-on-oo">
+
+						<select name="areaname" id="year">
+
+							<option value="">年份</option>
+
+							<option value="2019">2019</option>
+							<option value="2018">2018</option>
+
+							<option value="2017">2017</option>
+
+							<option value="不限">不限</option>
+
+						</select>
+
+					</div>
+
+					<div class="user-item user-item-on-S">
+
+						<select name="areaname" id="address">
+
+							<option value="">工作地点</option>
+
+							<option value="南昌市">南昌市</option>
+
+							<option value="景德镇">景德镇</option>
+
+							<option value="赣州市">赣州市</option>
+
+							<option value="宜春市">宜春市</option>
+
+							<option value="上饶市">上饶市</option>
+
+							<option value="吉安市">吉安市</option>
+
+							<option value="抚州市">抚州市</option>
+
+							<option value="萍乡市">萍乡市</option>
+
+							<option value="九江市">九江市</option>
+
+							<option value="新余市">新余市</option>
+
+							<option value="鹰潭市">鹰潭市</option>
+
+							<option value="省直">省直</option>
+
+						</select>
+
+					</div>
+
+
+
+					<div class="user-item user-item-on-S">
+
+						<select name="areaname" id="xuel">
+
+							<option value="">学历</option>
+
+							<option value="博士">博士研究生</option>
+
+							<option value="硕士">硕士研究生</option>
+
+							<option value="本科">本科</option>
+
+							<option value="大专">大专</option>
+
+							<option value="不限">不限</option>
+
+						</select>
+
+					</div>
+
+
+
+					<div class="user-item user-item-on-S">
+
+						<select name="areaname" id="zzmm">
+
+							<option value="">政治面貌</option>
+
+							<option value="中共党员">中共党员</option>
+
+							<option value="共青团员">共青团员</option>
+
+							<option value="不限">不限</option>
+
+						</select>
+
+					</div>
+
+
+
+					<div class="user-item user-item-1">
+
+						<input class="user-content" id="professional4" placeholder="输入专业" autocomplete="off" value="专业不限">
+
+						<div class="item_check item_check_zy"><span></span>全部</div>
+
+					</div>
+
+
+
+					<div class="user-item user-item-2"> <button class="btn btn-submit" id="submit">点击查询</button> </div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- 注册 登录 -->
+
+		<div class="container w3layouts agileits"> <span class="bd_close"></span>
+
+			<div class="bd_nav"> <span class="active">登录</span> <span>注册</span> </div>
+
+			<div class="login agileits" style="display: block;">
+
+				<form action="" method="post">
+
+					<div class="bd_line_wrap"> <input type="text" name="Userame" id="loginName" placeholder="用户名"> </div>
+
+					<div class="bd_line_wrap"> <input type="text" name="Phone" id="loginPhone" placeholder="手机号码"> </div>
+
+					<div class="bd_line_wrap send_button"> <input type="button" value="登 录" id="denglu" class="submintBtn"> <input type="hidden" value="953" id="dlformid"> </div>
+
+				</form>
+
+			</div>
+
+
+
+			<div class="register agileits">
+
+				<form action="" method="post">
+
+					<div class="bd_line_wrap"> <input type="text" name="Name" id="username" placeholder="用户名" required> </div>
+
+					<div class="bd_line_wrap"> <input type="text" name="Phone" id="phone" placeholder="手机号码"> </div>
+
+					<div class="bd_line_wrap yzm_wrap"> <input type="text" name="Yzm" id="yzm" placeholder="验证码">
+
+						<a href="javascript:;" id="getyzm" class="yzm_btn" data="953" microsoft="">获取</a>
+
+						<div id="daojishi">120s以后重新获取</div>
+
+					</div>
+
+					<!--div class="bd_line_wrap"> <input type="text" name="zkz" id="zkz" placeholder="准考证号"> </div!-->
+
+					<div class="bd_line_wrap send_button"> <input type="button" value="免费注册" id="zhuce" class="submintBtn"> <input type="hidden" value="953" id="zcformid"> </div>
+
+				</form>
+
+			</div>
+
+		</div>
+
+		<!-- 使用说明-->
+
+		<div class="zg_direction"> <span class="direction_close">&nbsp;</span>
+
+			<h6>使用说明</h6>
+
+			<ul class="direction_list">
+
+				<li>1.本系统收录了2017年、2018年江西省公务员考试职位表及各职位进面分数线，旨在省考前夕为您提供备考参考，了解您的专业在近两年所匹配到的职位以及该职位的进面分数线，让您做到心中有数，及早备考！</li>
+
+				<li>2.本系统是根据您的自身条件去匹配2017以及2018年您能够报考的职位，若无匹配项，可点击专业不限开关，查看更多可报考职位！</li>
+
+				<li>3.本系统不收费，旨在为广大考生提供便利，但考虑到服务器压力，需要验证身份，方可查询，祝您早日成功！</li>
+
+				<li> 4.请尽量使用谷歌、火狐浏览器或者使用360浏览器、搜狗浏览器、QQ浏览器极速版，来提升您的使用体验！</li>
+
+				<li>5.如果您在使用过程中遇到了问题，请点击
+
+						<a onClick="NTKF.im_openInPageChat(''kf_10353_1539670595838')" rel="nofollow" style="cursor: pointer;">在线咨询</a>或者拨打电话：0791-86823131。</li>
+
+			</ul> <span class="direction_know">我知道了</span>
+
+		</div>
+
+		<!-- 表格的数据展示 -->
+
+		<div class="www"  style="display: none;">
+
+			<div class="databack"><img src="./images/back.png" alt="" class="back"></div>
+
+			<div class="datatip">
+
+				<h3>职位匹配</h3>
+
+				<p>系统为你找到<span class="data"></span>条数据</p>
+
+			</div>
+
+			<div class="table_wrap"></div>
+
+		</div>
+
+		<!-- 职位详情 -->
+
+		<div class="detail_wrap">
+
+			<h4>职位详情</h4>
+
+			<table class="detailtable">
+
+				<tr>
+
+					<td>年份</td>
+
+					<td class="detail_item0"></td>
+
+				</tr>
+
+				<tr>
+
+					<td>工作地点</td>
+
+					<td class="detail_item1"></td>
+
+				</tr>
+
+
+
+				<tr>
+
+					<td>专业</td>
+
+					<td class="detail_item2"></td>
+
+				</tr>
+
+
+
+				<tr>
+
+					<td>学历</td>
+
+					<td class="detail_item3"></td>
+
+				</tr>
+
+
+
+				<tr>
+
+					<td>用人单位</td>
+
+					<td class="detail_item4"></td>
+
+				</tr>
+
+
+
+				<tr>
+
+					<td>职位代码</td>
+
+					<td class="detail_item5"></td>
+
+				</tr>
+
+
+
+				<tr>
+
+					<td>招录人数</td>
+
+					<td class="detail_item6"></td>
+
+				</tr>
+
+
+
+				<tr>
+
+					<td>政治面貌</td>
+
+					<td class="detail_item06"></td>
+
+				</tr>
+
+				<tr>
+
+					<td>入面分数</td>
+
+					<td class="detail_item7"></td>
+
+				</tr>
+
+			</table>
+
+			<div class="zwxqBack">返回</div>
+
+		</div>
+
+
+
+		<script src="./js/dataList.js" type="text/javascript" charset="utf-8"></script>
+
+		<script src="./js/loginphp.js?122"></script>
+
+		<script src="./js/searchphp.js?434"></script>
+
+		<script>
+
+		var _hmt = _hmt || [];
+
+		(function() {
+
+		  var hm = document.createElement("script");
+
+		  hm.src = "https://hm.baidu.com/hm.js?4e2696c26a080b005a29653f41a56622";
+
+		  var s = document.getElementsByTagName("script")[0];
+
+		  s.parentNode.insertBefore(hm, s);
+
+		})();
+
+		</script>
+
+		<!-- 【制作:张培青】2018.12.15-->
+
+<script
+
+language="javascript"src="http://www.offcn.com/statics/js/bdtj20161014.js"></script>
+
+<script language="javascript" src="http://www.offcn.com/statics/js/bdbot.js"></script>
+
+<script type="text/javascript" src="http://www.offcn.com/statics/js/bdtj_jx.js"></script>
+
+<script type="text/javaScript" src="http://www.offcn.com/statics/js/zgjs/xiaoneng.js 
+
+
+
+"></script>
+
+	</body>
+
+</html>
